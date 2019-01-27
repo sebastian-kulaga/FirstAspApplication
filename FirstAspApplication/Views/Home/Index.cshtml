@@ -1,0 +1,15 @@
+﻿@model FirstAspApplication.ViewModels.HomeViewModel
+
+
+<h2>@Model.Title</h2>
+
+
+@foreach (var car in Model.Cars)
+{
+    <div>
+        <h2>@car.Model</h2>
+        <h3>@car.ShortDescription</h3>
+        <h3>@car.Price.ToString("c")</h3>
+        <h3>@car.HorsePower</h3>
+    </div>
+}
