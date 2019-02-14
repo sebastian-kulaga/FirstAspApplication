@@ -18,5 +18,6 @@ namespace FirstAspApplication.Models
         public string ImageUrl { get; set; }
         public string ImageThumbnailUrl { get; set; }
         public bool IsCarOfTheWeek { get; set; }
+        public bool IsInStock { get; set; }
     }
 }

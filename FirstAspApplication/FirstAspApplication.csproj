@@ -8,7 +8,35 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\ccs\site.css" />
+    <None Include="wwwroot\images\boxter-image.jpg" />
+    <None Include="wwwroot\images\gt3-rs-image.jpg" />
+    <None Include="wwwroot\images\pattern.jpg" />
+    <None Include="wwwroot\images\porsche-911-carrera-image.jpg" />
   </ItemGroup>
 
 </Project>
